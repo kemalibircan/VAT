@@ -5,7 +5,7 @@ description: "A quick, practical guide to adding VAT to a net price, with a work
 date: "2026-03-03"
 cluster: "reverse-vat"
 readingTime: "6 min"
-canonical: "https://example.com/blog/how-to-add-vat-to-a-net-price-quick-guide"
+canonical: "https://calculatemyvat.com/blog/how-to-add-vat-to-a-net-price-quick-guide"
 faq:
   - question: "What is the formula to add VAT?"
     answer: "Gross = Net × (1 + rate/100). VAT amount = Gross − Net."

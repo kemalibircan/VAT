@@ -5,7 +5,7 @@ description: "If your reverse VAT calculation doesn’t match the receipt, it’
 date: "2026-03-03"
 cluster: "reverse-vat"
 readingTime: "8 min"
-canonical: "https://example.com/blog/why-your-vat-removal-looks-wrong-rounding-common-errors"
+canonical: "https://calculatemyvat.com/blog/why-your-vat-removal-looks-wrong-rounding-common-errors"
 faq:
   - question: "Why does my calculator differ from my receipt by 0.01?"
     answer: "Often it’s rounding: some systems round line items, others round totals. Both can be valid depending on the context."

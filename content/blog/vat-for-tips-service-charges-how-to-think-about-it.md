@@ -5,7 +5,7 @@ description: "Tips and service charges can complicate receipts. Here’s a pract
 date: "2026-03-03"
 cluster: "use-cases"
 readingTime: "9 min"
-canonical: "https://example.com/blog/vat-for-tips-service-charges-how-to-think-about-it"
+canonical: "https://calculatemyvat.com/blog/vat-for-tips-service-charges-how-to-think-about-it"
 faq:
   - question: "Is VAT always applied to tips or service charges?"
     answer: "Not always. Treatment can vary by jurisdiction and context. This guide is general information—confirm rules for your case."

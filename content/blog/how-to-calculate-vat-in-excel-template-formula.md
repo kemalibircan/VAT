@@ -5,7 +5,7 @@ description: "Use simple Excel formulas to calculate net, VAT, and gross. Includ
 date: "2026-03-03"
 cluster: "use-cases"
 readingTime: "10 min"
-canonical: "https://example.com/blog/how-to-calculate-vat-in-excel-template-formula"
+canonical: "https://calculatemyvat.com/blog/how-to-calculate-vat-in-excel-template-formula"
 faq:
   - question: "What Excel formula adds VAT to net?"
     answer: "Gross = Net * (1 + Rate/100). VAT = Gross - Net."

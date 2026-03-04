@@ -5,7 +5,7 @@ description: "A friendly overview of UK VAT basics for freelancers: what net vs 
 date: "2026-03-03"
 cluster: "country-basics"
 readingTime: "9 min"
-canonical: "https://example.com/blog/vat-basics-in-the-uk-for-freelancers-plain-english"
+canonical: "https://calculatemyvat.com/blog/vat-basics-in-the-uk-for-freelancers-plain-english"
 faq:
   - question: "Is this article official HMRC guidance?"
     answer: "No. This is general information and not tax advice. Always check official HMRC guidance or a qualified professional for decisions."

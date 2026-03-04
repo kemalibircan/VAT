@@ -5,7 +5,7 @@ description: "Discounts can make VAT feel confusing. Learn a simple way to think
 date: "2026-03-03"
 cluster: "reverse-vat"
 readingTime: "8 min"
-canonical: "https://example.com/blog/vat-on-discounts-should-you-remove-vat-before-or-after-discount"
+canonical: "https://calculatemyvat.com/blog/vat-on-discounts-should-you-remove-vat-before-or-after-discount"
 faq:
   - question: "Do discounts reduce VAT too?"
     answer: "Often, yes: if the taxable base is reduced, the VAT amount typically reduces as well. Exact rules can vary, so confirm for your case."

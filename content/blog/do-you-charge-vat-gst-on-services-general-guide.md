@@ -5,7 +5,7 @@ description: "A high-level, non-advice guide to thinking about VAT/GST on servic
 date: "2026-03-03"
 cluster: "country-basics"
 readingTime: "9 min"
-canonical: "https://example.com/blog/do-you-charge-vat-gst-on-services-general-guide"
+canonical: "https://calculatemyvat.com/blog/do-you-charge-vat-gst-on-services-general-guide"
 faq:
   - question: "Is this article tax advice?"
     answer: "No. This is general information about pricing and VAT/GST maths. For decisions, confirm rules for your jurisdiction or talk to a qualified professional."

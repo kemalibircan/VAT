@@ -36,13 +36,13 @@ export default async function HomePage() {
     <div className="space-y-10">
       <JsonLd
         data={getWebApplicationSchema({
-          url: "https://example.com/",
+          url: "https://calculatemyvat.com/",
           name: "VatSnap VAT/GST Calculator",
           description:
             "Reverse VAT or GST, switch between net and gross, and understand the maths in plain English with VatSnap."
         })}
       />
-      <JsonLd data={getFaqSchema({ url: "https://example.com/", items: faqItems })} />
+      <JsonLd data={getFaqSchema({ url: "https://calculatemyvat.com/", items: faqItems })} />
       <section className="space-y-4">
         <h1 className="text-4xl font-semibold leading-tight md:text-5xl">
           VAT & GST reverse calculator

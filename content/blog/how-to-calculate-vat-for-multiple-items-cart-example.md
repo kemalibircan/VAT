@@ -5,7 +5,7 @@ description: "A simple cart-style walkthrough: calculate VAT across multiple ite
 date: "2026-03-03"
 cluster: "use-cases"
 readingTime: "10 min"
-canonical: "https://example.com/blog/how-to-calculate-vat-for-multiple-items-cart-example"
+canonical: "https://calculatemyvat.com/blog/how-to-calculate-vat-for-multiple-items-cart-example"
 faq:
   - question: "Should I calculate VAT per item or on the total?"
     answer: "Both approaches exist depending on system and policy. The important thing is to be consistent and match the source you’re checking."

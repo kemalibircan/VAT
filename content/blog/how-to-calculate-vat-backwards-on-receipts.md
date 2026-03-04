@@ -5,7 +5,7 @@ description: "A practical method for reversing VAT from receipt totals, includin
 date: "2026-03-03"
 cluster: "reverse-vat"
 readingTime: "7 min"
-canonical: "https://example.com/blog/how-to-calculate-vat-backwards-on-receipts"
+canonical: "https://calculatemyvat.com/blog/how-to-calculate-vat-backwards-on-receipts"
 faq:
   - question: "What number on a receipt should I use as the gross amount?"
     answer: "Use the VAT-inclusive total for the relevant line or the subtotal that includes VAT. Receipts vary, so check the labels."

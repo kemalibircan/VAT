@@ -5,7 +5,7 @@ description: "A beginner-friendly explanation of net vs gross prices, with simpl
 date: "2026-03-03"
 cluster: "reverse-vat"
 readingTime: "7 min"
-canonical: "https://example.com/blog/net-vs-gross-price-a-practical-explanation-for-beginners"
+canonical: "https://calculatemyvat.com/blog/net-vs-gross-price-a-practical-explanation-for-beginners"
 faq:
   - question: "What is net price?"
     answer: "Net is the price before VAT/GST is added (tax-exclusive)."

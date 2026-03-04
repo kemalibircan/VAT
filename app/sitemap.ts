@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllPostMetas } from "@/lib/blog";
 
-const baseUrl = "https://example.com";
+const baseUrl = "https://calculatemyvat.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [

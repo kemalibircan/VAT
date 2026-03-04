@@ -5,7 +5,7 @@ description: "A simple VAT cheat sheet: formulas for add/remove VAT, quick examp
 date: "2026-03-03"
 cluster: "use-cases"
 readingTime: "8 min"
-canonical: "https://example.com/blog/vat-calculation-cheat-sheet-printable"
+canonical: "https://calculatemyvat.com/blog/vat-calculation-cheat-sheet-printable"
 faq:
   - question: "What’s the fastest way to calculate VAT?"
     answer: "Use the formulas: gross = net × (1 + rate/100), and net = gross ÷ (1 + rate/100). A calculator helps you avoid mistakes."

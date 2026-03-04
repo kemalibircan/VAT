@@ -5,7 +5,7 @@ description: "Understand the reverse VAT formula in plain English, including why
 date: "2026-03-03"
 cluster: "reverse-vat"
 readingTime: "7 min"
-canonical: "https://example.com/blog/reverse-vat-formula-explained-with-examples"
+canonical: "https://calculatemyvat.com/blog/reverse-vat-formula-explained-with-examples"
 faq:
   - question: "What is the reverse VAT formula?"
     answer: "Net = Gross ÷ (1 + rate/100). Then VAT = Gross − Net."

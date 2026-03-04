@@ -5,7 +5,7 @@ description: "Selling online? Learn how net vs gross pricing works in practice a
 date: "2026-03-03"
 cluster: "country-basics"
 readingTime: "9 min"
-canonical: "https://example.com/blog/vat-for-online-sellers-net-gross-pricing-explained"
+canonical: "https://calculatemyvat.com/blog/vat-for-online-sellers-net-gross-pricing-explained"
 faq:
   - question: "Should my store show prices including VAT?"
     answer: "It depends on your customers and local expectations. This guide explains the concepts; confirm what rules apply to your case."

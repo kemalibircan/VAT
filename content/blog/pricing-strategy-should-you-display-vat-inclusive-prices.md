@@ -5,7 +5,7 @@ description: "A practical, non-advice guide to inclusive vs exclusive price disp
 date: "2026-03-03"
 cluster: "use-cases"
 readingTime: "9 min"
-canonical: "https://example.com/blog/pricing-strategy-should-you-display-vat-inclusive-prices"
+canonical: "https://calculatemyvat.com/blog/pricing-strategy-should-you-display-vat-inclusive-prices"
 faq:
   - question: "Is VAT-inclusive pricing always required?"
     answer: "Rules vary by country and situation. This guide is general information—confirm requirements for your case."

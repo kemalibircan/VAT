@@ -5,7 +5,7 @@ description: "Shipping can be taxable in some setups. Learn a plain-English way 
 date: "2026-03-03"
 cluster: "reverse-vat"
 readingTime: "7 min"
-canonical: "https://example.com/blog/vat-on-shipping-how-it-usually-works-simple-examples"
+canonical: "https://calculatemyvat.com/blog/vat-on-shipping-how-it-usually-works-simple-examples"
 faq:
   - question: "Is shipping always subject to VAT?"
     answer: "Not always. Treatment can vary by country and situation. This guide is general information—confirm the rules for your case."

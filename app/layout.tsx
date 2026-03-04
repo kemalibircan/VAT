@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   description:
     "Reverse VAT or GST, switch between net and gross, and understand the maths in plain English with VatSnap.",
-  metadataBase: new URL("https://example.com")
+  metadataBase: new URL("https://calculatemyvat.com")
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

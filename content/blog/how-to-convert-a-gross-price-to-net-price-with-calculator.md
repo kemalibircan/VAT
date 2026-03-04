@@ -5,7 +5,7 @@ description: "Convert a VAT/GST-inclusive (gross) price to a net price with a si
 date: "2026-03-03"
 cluster: "use-cases"
 readingTime: "7 min"
-canonical: "https://example.com/blog/how-to-convert-a-gross-price-to-net-price-with-calculator"
+canonical: "https://calculatemyvat.com/blog/how-to-convert-a-gross-price-to-net-price-with-calculator"
 faq:
   - question: "What is the formula to go from gross to net?"
     answer: "Net = Gross ÷ (1 + rate/100)."

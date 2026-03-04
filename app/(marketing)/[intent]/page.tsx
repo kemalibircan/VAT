@@ -25,7 +25,7 @@ export async function generateMetadata({
     title: intent.title,
     description: intent.description,
     alternates: {
-      canonical: `https://example.com/${intent.slug}`
+      canonical: `https://calculatemyvat.com/${intent.slug}`
     }
   };
 }
@@ -59,7 +59,7 @@ export default async function IntentPage({ params }: Props) {
     }
   ];
 
-  const canonical = `https://example.com/${intent.slug}`;
+  const canonical = `https://calculatemyvat.com/${intent.slug}`;
 
   return (
     <div className="space-y-10">

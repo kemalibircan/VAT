@@ -5,7 +5,7 @@ description: "A practical guide to reading a VAT invoice breakdown: net, VAT, gr
 date: "2026-03-03"
 cluster: "country-basics"
 readingTime: "10 min"
-canonical: "https://example.com/blog/vat-invoice-format-what-a-proper-breakdown-looks-like"
+canonical: "https://calculatemyvat.com/blog/vat-invoice-format-what-a-proper-breakdown-looks-like"
 faq:
   - question: "Does every invoice need the same VAT fields?"
     answer: "Requirements can vary by jurisdiction and scenario. This guide focuses on common patterns and the maths behind them."

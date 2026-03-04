@@ -5,7 +5,7 @@ description: "A practical glossary of common VAT terms, written in plain English
 date: "2026-03-03"
 cluster: "use-cases"
 readingTime: "10 min"
-canonical: "https://example.com/blog/common-vat-terms-glossary-net-gross-input-output-vat"
+canonical: "https://calculatemyvat.com/blog/common-vat-terms-glossary-net-gross-input-output-vat"
 faq:
   - question: "Is this glossary official guidance?"
     answer: "No. It’s a plain-English explanation of common terms. Always confirm official definitions and rules for your jurisdiction."

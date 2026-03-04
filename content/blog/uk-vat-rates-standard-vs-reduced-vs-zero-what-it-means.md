@@ -5,7 +5,7 @@ description: "A plain-English explanation of UK VAT rate categories (standard/re
 date: "2026-03-03"
 cluster: "country-basics"
 readingTime: "8 min"
-canonical: "https://example.com/blog/uk-vat-rates-standard-vs-reduced-vs-zero-what-it-means"
+canonical: "https://calculatemyvat.com/blog/uk-vat-rates-standard-vs-reduced-vs-zero-what-it-means"
 faq:
   - question: "Are you listing official UK VAT rates here?"
     answer: "No. This article focuses on categories and concepts, not authoritative numbers. Always confirm current rates from official guidance."

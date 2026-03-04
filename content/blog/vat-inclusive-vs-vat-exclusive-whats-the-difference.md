@@ -5,7 +5,7 @@ description: "Learn what VAT-inclusive and VAT-exclusive prices really mean, and
 date: "2026-03-03"
 cluster: "reverse-vat"
 readingTime: "7 min"
-canonical: "https://example.com/blog/vat-inclusive-vs-vat-exclusive-whats-the-difference"
+canonical: "https://calculatemyvat.com/blog/vat-inclusive-vs-vat-exclusive-whats-the-difference"
 faq:
   - question: "What does VAT-inclusive actually mean on a price tag?"
     answer: "VAT-inclusive means the tax is already baked into the number you see. When you pay, you pay exactly that amount."

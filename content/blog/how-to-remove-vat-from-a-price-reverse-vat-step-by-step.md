@@ -5,7 +5,7 @@ description: "Walk through a clear, non-technical method for reversing VAT from 
 date: "2026-03-03"
 cluster: "reverse-vat"
 readingTime: "8 min"
-canonical: "https://example.com/blog/how-to-remove-vat-from-a-price-reverse-vat-step-by-step"
+canonical: "https://calculatemyvat.com/blog/how-to-remove-vat-from-a-price-reverse-vat-step-by-step"
 faq:
   - question: "Can I remove VAT by just subtracting a percentage from the price?"
     answer: "No. To reverse VAT you divide the gross by (1 + rate/100). Simply subtracting a percentage gives the wrong answer."

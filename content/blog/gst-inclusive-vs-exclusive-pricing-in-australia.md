@@ -5,7 +5,7 @@ description: "Learn the difference between GST-inclusive and GST-exclusive prici
 date: "2026-03-03"
 cluster: "country-basics"
 readingTime: "8 min"
-canonical: "https://example.com/blog/gst-inclusive-vs-exclusive-pricing-in-australia"
+canonical: "https://calculatemyvat.com/blog/gst-inclusive-vs-exclusive-pricing-in-australia"
 faq:
   - question: "What does GST-inclusive mean?"
     answer: "It means the displayed price already includes GST. The customer pays that amount."

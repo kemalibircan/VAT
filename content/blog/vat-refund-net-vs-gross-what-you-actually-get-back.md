@@ -5,7 +5,7 @@ description: "Refund maths can be confusing. Learn how net, VAT, and gross relat
 date: "2026-03-03"
 cluster: "use-cases"
 readingTime: "9 min"
-canonical: "https://example.com/blog/vat-refund-net-vs-gross-what-you-actually-get-back"
+canonical: "https://calculatemyvat.com/blog/vat-refund-net-vs-gross-what-you-actually-get-back"
 faq:
   - question: "Is a refund always the gross amount I paid?"
     answer: "Often refunds mirror what you paid, but policies vary. This guide focuses on the maths of net/VAT/gross, not refund policy."

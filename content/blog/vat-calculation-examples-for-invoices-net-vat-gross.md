@@ -5,7 +5,7 @@ description: "See practical invoice-style VAT breakdowns (net, VAT, gross) with 
 date: "2026-03-03"
 cluster: "reverse-vat"
 readingTime: "9 min"
-canonical: "https://example.com/blog/vat-calculation-examples-for-invoices-net-vat-gross"
+canonical: "https://calculatemyvat.com/blog/vat-calculation-examples-for-invoices-net-vat-gross"
 faq:
   - question: "What should an invoice VAT breakdown include?"
     answer: "Typically net amount, VAT rate, VAT amount, and gross total. Exact requirements can vary, so confirm for your jurisdiction."

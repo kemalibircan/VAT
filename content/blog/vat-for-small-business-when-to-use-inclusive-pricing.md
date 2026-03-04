@@ -5,7 +5,7 @@ description: "A practical guide for small businesses: when to think in VAT-inclu
 date: "2026-03-03"
 cluster: "country-basics"
 readingTime: "9 min"
-canonical: "https://example.com/blog/vat-for-small-business-when-to-use-inclusive-pricing"
+canonical: "https://calculatemyvat.com/blog/vat-for-small-business-when-to-use-inclusive-pricing"
 faq:
   - question: "Is inclusive pricing better than exclusive pricing?"
     answer: "It depends on your audience and context. Inclusive is often simpler for consumers; exclusive can be clearer for B2B quotes. Confirm what’s expected for your case."

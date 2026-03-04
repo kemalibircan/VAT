@@ -5,7 +5,7 @@ description: "A high-level, non-advice overview of how VAT discussions change fo
 date: "2026-03-03"
 cluster: "country-basics"
 readingTime: "9 min"
-canonical: "https://example.com/blog/vat-on-digital-products-what-changes-high-level"
+canonical: "https://calculatemyvat.com/blog/vat-on-digital-products-what-changes-high-level"
 faq:
   - question: "Is this tax advice for digital VAT rules?"
     answer: "No. This is general information about concepts and invoice maths. Rules vary widely—confirm official guidance for your case."

@@ -5,7 +5,7 @@ description: "A friendly overview of GST in Australia with simple net/gross exam
 date: "2026-03-03"
 cluster: "country-basics"
 readingTime: "9 min"
-canonical: "https://example.com/blog/gst-in-australia-explained-simple-examples"
+canonical: "https://calculatemyvat.com/blog/gst-in-australia-explained-simple-examples"
 faq:
   - question: "Is this official ATO guidance?"
     answer: "No. This guide is general information and not tax advice. Always confirm your obligations and rules with official guidance or a qualified professional."

@@ -5,7 +5,7 @@ description: "A practical, non-advice walkthrough for checking VAT maths on mark
 date: "2026-03-03"
 cluster: "use-cases"
 readingTime: "9 min"
-canonical: "https://example.com/blog/how-to-calculate-vat-on-amazon-ebay-pricing-simple-steps"
+canonical: "https://calculatemyvat.com/blog/how-to-calculate-vat-on-amazon-ebay-pricing-simple-steps"
 faq:
   - question: "Is marketplace VAT always handled the same way?"
     answer: "No. Marketplaces can differ by region, product, and seller setup. This guide is general information—confirm your platform’s statements and local rules."
