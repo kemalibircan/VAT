@@ -79,6 +79,24 @@ export function Header() {
             </span>
             <span>Blog</span>
           </Link>
+          <Link
+            href="/global-dijital"
+            className="group inline-flex items-center gap-1 rounded-full px-3 py-1 text-muted transition hover:bg-accent-soft hover:text-accent"
+          >
+            <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-purple-500/10 text-purple-500">
+              <svg viewBox="0 0 24 24" aria-hidden="true" className="h-2.5 w-2.5">
+                <path
+                  d="M9.5 5.75h8.75v8.75M14.25 9.75 9 15m-3.75-2a7 7 0 0 0 7 7"
+                  className="stroke-current"
+                  strokeWidth="1.4"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </span>
+            <span>Global Dijital – All Products</span>
+          </Link>
           <div className="ml-1">
             <ThemeToggle />
           </div>
