@@ -1,6 +1,6 @@
-# VatSnap – VAT/GST Reverse Calculator + Blog (MVP)
+# calculatemyvat – VAT/GST Reverse Calculator + Blog (MVP)
 
-VatSnap is a mobile-first, dark/light, shareable **VAT/GST reverse calculator** with SEO-friendly intent/country landing pages and a markdown-powered blog.
+calculatemyvat is a mobile-first, dark/light, shareable **VAT/GST reverse calculator** with SEO-friendly intent/country landing pages and a markdown-powered blog.
 
 This project intentionally implements **Steps 1–7 only** (no analytics, tracking pixels, or Google Search Console instructions).
 

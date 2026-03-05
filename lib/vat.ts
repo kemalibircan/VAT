@@ -1,10 +1,12 @@
 export type VatMode = "add" | "remove" | "amount";
 
+export type RoundingMode = "none" | "2" | "3";
+
 export type VatCalculationInput = {
   amount: number;
   rate: number;
   mode: VatMode;
-  rounding: boolean;
+  rounding: RoundingMode;
 };
 
 export type VatCalculationResult = {
@@ -18,8 +20,8 @@ export type VatCalculationError = {
   error: string;
 };
 
-const round2 = (value: number): number =>
-  Math.round((value + Number.EPSILON) * 100) / 100;
+const roundTo = (value: number, digits: number): number =>
+  Math.round((value + Number.EPSILON) * 10 ** digits) / 10 ** digits;
 
 export function calculateVat(
   input: VatCalculationInput
@@ -62,10 +64,14 @@ export function calculateVat(
     explanation = `We calculated VAT as net × rate/100, then added it to net.`;
   }
 
-  if (rounding) {
-    net = round2(net);
-    vat = round2(vat);
-    gross = round2(gross);
+  if (rounding === "2") {
+    net = roundTo(net, 2);
+    vat = roundTo(vat, 2);
+    gross = roundTo(gross, 2);
+  } else if (rounding === "3") {
+    net = roundTo(net, 3);
+    vat = roundTo(vat, 3);
+    gross = roundTo(gross, 3);
   }
 
   if (!Number.isFinite(net) || !Number.isFinite(vat) || !Number.isFinite(gross)) {

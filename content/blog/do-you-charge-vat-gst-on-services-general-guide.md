@@ -65,7 +65,7 @@ This reduces back-and-forth and makes approvals easier.
 
 ## Try the calculator
 
-Use VatSnap to model your service pricing quickly:
+Use calculatemyvat to model your service pricing quickly:
 
 - Add VAT: `/add-vat-calculator`
 - Reverse VAT (when a client gives you a gross budget): `/remove-vat-calculator`

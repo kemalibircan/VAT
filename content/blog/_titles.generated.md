@@ -1,4 +1,4 @@
-# Blog title clusters for VatSnap
+# Blog title clusters for calculatemyvat
 
 These are brainstorming ideas for future articles. Some of them are already published as full guides in the `/content/blog` folder.
 

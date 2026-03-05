@@ -76,14 +76,14 @@ export default async function IntentCountryPage({ params }: Props) {
       <JsonLd
         data={getWebApplicationSchema({
           url: canonical,
-          name: "VatSnap VAT/GST Calculator",
+          name: "calculatemyvat VAT/GST Calculator",
           description: `${intent.description} (${country.name})`
         })}
       />
       <JsonLd data={getFaqSchema({ url: canonical, items: faqItems })} />
       <Suspense
         fallback={
-          <div className="rounded-2xl border borderSubtle bg-surfaceElevated p-6 text-sm text-muted shadow-sm dark:border-slate-800 dark:bg-slate-950/60">
+          <div className="rounded-2xl border borderSubtle bg-surfaceElevated p-6 text-sm text-muted shadow-sm dark:border-slate-800">
             Loading calculator…
           </div>
         }

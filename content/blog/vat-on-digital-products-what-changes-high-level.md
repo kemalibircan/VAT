@@ -58,7 +58,7 @@ If you show gross pricing to customers, make sure your internal reporting still 
 
 ## Try the calculator
 
-Use VatSnap to sanity-check pricing:
+Use calculatemyvat to sanity-check pricing:
 
 - VAT calculator: `/vat-calculator`
 - Reverse VAT (when you only know gross): `/remove-vat-calculator`

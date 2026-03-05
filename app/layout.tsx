@@ -7,18 +7,21 @@ import { LayoutShell } from "@/components/layout-shell";
 
 export const metadata: Metadata = {
   title: {
-    default: "VatSnap – Friendly VAT & GST Reverse Calculator",
-    template: "%s | VatSnap"
+    default: "calculatemyvat – Friendly VAT & GST Reverse Calculator",
+    template: "%s | calculatemyvat"
   },
   description:
-    "Reverse VAT or GST, switch between net and gross, and understand the maths in plain English with VatSnap.",
-  metadataBase: new URL("https://calculatemyvat.com")
+    "Reverse VAT or GST, switch between net and gross, and understand the maths in plain English with calculatemyvat.",
+  metadataBase: new URL("https://calculatemyvat.com"),
+  icons: {
+    icon: "/icon.png"
+  }
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen bg-background text-foreground">
+      <body className="min-h-screen bg-background text-foreground antialiased">
         <ThemeProvider>
           <ToastProvider>
             <LayoutShell>{children}</LayoutShell>

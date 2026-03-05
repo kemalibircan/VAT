@@ -26,7 +26,7 @@ export function Tabs<Value extends string>({
     <div
       role="tablist"
       aria-label={ariaLabel}
-      className="inline-flex w-full flex-wrap items-stretch justify-start gap-2 rounded-xl border borderSubtle bg-surface p-1 text-xs shadow-sm md:text-sm"
+      className="inline-flex w-full flex-wrap items-stretch justify-start gap-2 rounded-xl border borderSubtle bg-surface/80 p-1 text-xs shadow-sm backdrop-blur-sm md:text-sm"
     >
       {options.map((opt) => {
         const active = opt.value === value;
@@ -40,7 +40,7 @@ export function Tabs<Value extends string>({
               "flex-1 rounded-lg px-3 py-2 text-left outline-none transition",
               active
                 ? "bg-accent text-accent-foreground shadow-sm"
-                : "text-muted hover:bg-accent-soft"
+                : "text-muted hover:bg-accent-soft hover:text-accent"
             )}
             onClick={() => onChange(opt.value)}
           >

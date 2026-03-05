@@ -79,7 +79,7 @@ In this example it still matches. With other values, you can land on 0.39 vs 0.4
 
 ## Try the calculator
 
-Use VatSnap to compare both directions quickly:
+Use calculatemyvat to compare both directions quickly:
 
 - Reverse VAT: `/remove-vat-calculator`
 - VAT inclusive to exclusive: `/vat-inclusive-to-exclusive`

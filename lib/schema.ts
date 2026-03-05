@@ -45,11 +45,11 @@ export function getArticleSchema(post: BlogPost) {
     mainEntityOfPage: post.canonical,
     author: {
       "@type": "Organization",
-      name: "VatSnap"
+      name: "calculatemyvat"
     },
     publisher: {
       "@type": "Organization",
-      name: "VatSnap"
+      name: "calculatemyvat"
     }
   };
 }

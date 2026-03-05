@@ -78,7 +78,7 @@ Notice the 0.01 difference: that’s rounding policy in action.
 
 ## Try the calculator
 
-Use VatSnap to test both approaches quickly:
+Use calculatemyvat to test both approaches quickly:
 
 - Add VAT: `/add-vat-calculator`
 - Reverse VAT: `/remove-vat-calculator`

@@ -111,7 +111,7 @@ export default async function BlogPostPage({ params }: Props) {
               {related.map((p) => (
                 <li
                   key={p!.slug}
-                  className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-950/60"
+                  className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800"
                 >
                   <Link
                     href={`/blog/${p!.slug}`}
@@ -128,7 +128,7 @@ export default async function BlogPostPage({ params }: Props) {
       </article>
 
       <aside className="md:sticky md:top-24">
-        <div className="space-y-3 rounded-xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950/60">
+        <div className="space-y-3 rounded-xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-800">
           <p className="text-sm font-semibold">Try the calculator</p>
           <p className="text-sm text-muted">
             Want to plug in your own numbers? These links jump straight into the tool.

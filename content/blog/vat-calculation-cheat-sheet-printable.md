@@ -73,7 +73,7 @@ When checking a document:
 
 ## Try the calculator
 
-Use VatSnap for fast checks and copy-ready values:
+Use calculatemyvat for fast checks and copy-ready values:
 
 - VAT calculator: `/vat-calculator`
 - Reverse VAT: `/remove-vat-calculator`

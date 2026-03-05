@@ -76,7 +76,7 @@ If you’re off by 0.01, it’s usually rounding.
 
 ## Try the calculator
 
-Use VatSnap to test receipt buckets:
+Use calculatemyvat to test receipt buckets:
 
 - Reverse VAT: `/remove-vat-calculator`
 - UK example preset page: `/vat-calculator/uk`

@@ -14,7 +14,7 @@ faq:
   - question: "Is this article tax or legal advice?"
     answer: "No. It is general educational information about the maths behind VAT. For decisions, talk to a qualified professional."
   - question: "What if my invoice has multiple VAT rates?"
-    answer: "The same reverse-VAT logic applies, but you need to work on each rate band separately. A calculator like VatSnap helps you check the maths line by line."
+    answer: "The same reverse-VAT logic applies, but you need to work on each rate band separately. A calculator like calculatemyvat helps you check the maths line by line."
 relatedSlugs:
   - "reverse-vat-formula-explained-with-examples"
   - "net-vs-gross-price-a-practical-explanation-for-beginners"
@@ -24,7 +24,7 @@ relatedSlugs:
 
 Removing VAT from a price sounds simple until you try it with a calculator and get a weird result. Many people try to “take 20% off” a VAT-inclusive amount and end up with the wrong net price.
 
-This guide shows, in plain English, how reverse VAT really works. You will see the formula, a worked example with an example rate, and how to double-check your numbers using a calculator like VatSnap.
+This guide shows, in plain English, how reverse VAT really works. You will see the formula, a worked example with an example rate, and how to double-check your numbers using a calculator like calculatemyvat.
 
 Throughout, remember: the rates used here are examples only. **Rates can change. Always confirm the correct rate for your case.** Default rate is a convenience preset. You can edit it.
 
@@ -80,7 +80,7 @@ With a reverse VAT mode, you usually:
 3. Pick a country preset with an example rate, or type your own rate.
 4. See net, VAT, and gross update instantly.
 
-If you use the **VatSnap** calculator, you will also see a short explanation under the results that reminds you we used the reverse formula gross ÷ (1 + rate/100).
+If you use the **calculatemyvat** calculator, you will also see a short explanation under the results that reminds you we used the reverse formula gross ÷ (1 + rate/100).
 
 ## Rounding and why your number might be off by a cent
 
@@ -92,7 +92,7 @@ Common rounding situations include:
 - The calculator rounds the final total only.
 - Some systems use “bankers rounding”; others use the more common “round half up.”
 
-When you compare VatSnap against an invoice:
+When you compare calculatemyvat against an invoice:
 
 - Try toggling the **“Rounding: 2 decimals”** option.
 - If the difference is just one cent, it is likely a rounding style difference, not a maths error.

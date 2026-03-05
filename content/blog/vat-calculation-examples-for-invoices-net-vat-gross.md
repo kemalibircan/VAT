@@ -103,7 +103,7 @@ In this case it matchesâ€”but with different values it can differ by 0.01. Thatâ
 
 ## Try the calculator
 
-Use VatSnap to recreate invoice numbers quickly:
+Use calculatemyvat to recreate invoice numbers quickly:
 
 - Add VAT: `/add-vat-calculator`
 - Remove VAT / reverse VAT: `/remove-vat-calculator`

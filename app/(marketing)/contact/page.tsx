@@ -21,7 +21,7 @@ export default function ContactPage() {
       </section>
 
       <section className="space-y-3">
-        <form className="group space-y-3 rounded-2xl border borderSubtle bg-surfaceElevated p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-sky-400/70 hover:shadow-md dark:border-slate-800 dark:bg-slate-950/60">
+        <form className="group space-y-3 rounded-2xl border borderSubtle bg-surfaceElevated p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-sky-400/70 hover:shadow-md dark:border-slate-800">
           <div className="flex items-center justify-between text-xs text-muted">
             <div className="inline-flex items-center gap-2 rounded-full bg-surface px-2 py-1 ring-1 ring-borderSubtle/70">
               <span className="h-1.5 w-1.5 animate-ping rounded-full bg-sky-400" />
@@ -33,23 +33,23 @@ export default function ContactPage() {
             <label className="block text-sm font-medium" htmlFor="contact-topic">
               Topic
             </label>
-            <input
-              id="contact-topic"
-              type="text"
-              className="block w-full rounded-lg border borderSubtle bg-surface px-3 py-2 text-sm text-foreground placeholder:text-foreground-muted/70 dark:border-slate-700 dark:bg-slate-950/60 dark:placeholder:text-slate-500"
-              placeholder="e.g. Feature request or bug report"
-            />
+              <input
+                id="contact-topic"
+                type="text"
+                className="block w-full rounded-lg border borderSubtle bg-surface px-3 py-2 text-sm text-foreground placeholder:text-foreground-muted/70 dark:border-slate-700 dark:placeholder:text-slate-500"
+                placeholder="e.g. Feature request or bug report"
+              />
           </div>
           <div className="space-y-1">
             <label className="block text-sm font-medium" htmlFor="contact-message">
               Message
             </label>
-            <textarea
-              id="contact-message"
-              rows={5}
-              className="block w-full rounded-lg border borderSubtle bg-surface px-3 py-2 text-sm text-foreground placeholder:text-foreground-muted/70 dark:border-slate-700 dark:bg-slate-950/60 dark:placeholder:text-slate-500"
-              placeholder="Write your note here. You can then copy it into your email client."
-            />
+              <textarea
+                id="contact-message"
+                rows={5}
+                className="block w-full rounded-lg border borderSubtle bg-surface px-3 py-2 text-sm text-foreground placeholder:text-foreground-muted/70 dark:border-slate-700 dark:placeholder:text-slate-500"
+                placeholder="Write your note here. You can then copy it into your email client."
+              />
           </div>
           <p className="text-xs text-muted">
             This form is for drafting only. When you are happy with your message,

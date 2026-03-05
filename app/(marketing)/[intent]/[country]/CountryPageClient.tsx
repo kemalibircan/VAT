@@ -116,7 +116,7 @@ export function CountryPageClient({
           {guides.map((post) => (
             <li
               key={post.slug}
-              className="group rounded-lg border borderSubtle bg-surfaceElevated p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-emerald-400/70 hover:shadow-md dark:border-slate-800 dark:bg-slate-950/60"
+              className="group rounded-lg border borderSubtle bg-surfaceElevated p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-emerald-400/70 hover:shadow-md dark:border-slate-800"
             >
               <a
                 href={`/blog/${post.slug}`}

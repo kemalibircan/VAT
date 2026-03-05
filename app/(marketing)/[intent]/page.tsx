@@ -66,13 +66,13 @@ export default async function IntentPage({ params }: Props) {
       <JsonLd
         data={getWebApplicationSchema({
           url: canonical,
-          name: "VatSnap VAT/GST Calculator",
+          name: "calculatemyvat VAT/GST Calculator",
           description: intent.description
         })}
       />
       <JsonLd data={getFaqSchema({ url: canonical, items: faqItems })} />
       <section className="space-y-3">
-        <div className="inline-flex items-center gap-3 rounded-full bg-surfaceElevated/80 px-3 py-1 text-xs font-medium text-foreground-muted ring-1 ring-borderSubtle/70 backdrop-blur-sm dark:bg-slate-950/60">
+        <div className="inline-flex items-center gap-3 rounded-full bg-surfaceElevated/80 px-3 py-1 text-xs font-medium text-foreground-muted ring-1 ring-borderSubtle/70 backdrop-blur-sm">
           <span className="inline-flex h-2 w-2 animate-pulse rounded-full bg-emerald-400 shadow-[0_0_0_3px_rgba(52,211,153,0.35)]" />
           <span>Interactive VAT / GST helper</span>
         </div>
@@ -96,7 +96,7 @@ export default async function IntentPage({ params }: Props) {
           you can reuse whenever you need to check a price.
         </p>
         <div className="mt-4 grid gap-3 text-xs md:grid-cols-3 md:text-sm">
-          <div className="group flex items-start gap-2 rounded-xl border borderSubtle bg-surfaceElevated/60 p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-emerald-400/70 hover:shadow-md dark:border-slate-800 dark:bg-slate-950/60">
+          <div className="group flex items-start gap-2 rounded-xl border borderSubtle bg-surfaceElevated/60 p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-emerald-400/70 hover:shadow-md dark:border-slate-800">
             <div className="mt-0.5 inline-flex h-7 w-7 flex-none items-center justify-center rounded-full bg-emerald-500/10 text-emerald-500 ring-1 ring-emerald-500/40 group-hover:scale-105 group-hover:bg-emerald-500/15 group-hover:ring-emerald-400/70">
               <svg viewBox="0 0 24 24" aria-hidden="true" className="h-3.5 w-3.5">
                 <path
@@ -116,7 +116,7 @@ export default async function IntentPage({ params }: Props) {
               </p>
             </div>
           </div>
-          <div className="group flex items-start gap-2 rounded-xl border borderSubtle bg-surfaceElevated/60 p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-sky-400/70 hover:shadow-md dark:border-slate-800 dark:bg-slate-950/60">
+          <div className="group flex items-start gap-2 rounded-xl border borderSubtle bg-surfaceElevated/60 p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-sky-400/70 hover:shadow-md dark:border-slate-800">
             <div className="mt-0.5 inline-flex h-7 w-7 flex-none items-center justify-center rounded-full bg-sky-500/10 text-sky-500 ring-1 ring-sky-500/40 group-hover:scale-105 group-hover:bg-sky-500/15 group-hover:ring-sky-400/70">
               <svg viewBox="0 0 24 24" aria-hidden="true" className="h-3.5 w-3.5">
                 <path
@@ -132,7 +132,7 @@ export default async function IntentPage({ params }: Props) {
               </p>
             </div>
           </div>
-          <div className="group flex items-start gap-2 rounded-xl border borderSubtle bg-surfaceElevated/60 p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-amber-400/70 hover:shadow-md dark:border-slate-800 dark:bg-slate-950/60">
+          <div className="group flex items-start gap-2 rounded-xl border borderSubtle bg-surfaceElevated/60 p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-amber-400/70 hover:shadow-md dark:border-slate-800">
             <div className="mt-0.5 inline-flex h-7 w-7 flex-none items-center justify-center rounded-full bg-amber-500/10 text-amber-500 ring-1 ring-amber-500/40 group-hover:scale-105 group-hover:bg-amber-500/15 group-hover:ring-amber-400/70">
               <svg viewBox="0 0 24 24" aria-hidden="true" className="h-3.5 w-3.5">
                 <path
@@ -174,7 +174,7 @@ export default async function IntentPage({ params }: Props) {
         </div>
         <Suspense
           fallback={
-            <div className="space-y-4 rounded-2xl border borderSubtle bg-surfaceElevated p-6 text-sm text-muted shadow-sm dark:border-slate-800 dark:bg-slate-950/60">
+            <div className="space-y-4 rounded-2xl border borderSubtle bg-surfaceElevated p-6 text-sm text-muted shadow-sm dark:border-slate-800">
               <div className="flex items-center justify-between">
                 <div className="h-4 w-32 animate-pulse rounded bg-foreground-muted/20" />
                 <div className="h-7 w-24 animate-pulse rounded-full bg-foreground-muted/15" />
@@ -214,7 +214,7 @@ export default async function IntentPage({ params }: Props) {
           {guides.map((post) => (
             <li
               key={post.slug}
-              className="group rounded-lg border borderSubtle bg-surfaceElevated p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-emerald-400/70 hover:shadow-md dark:border-slate-800 dark:bg-slate-950/60"
+              className="group rounded-lg border borderSubtle bg-surfaceElevated p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-emerald-400/70 hover:shadow-md dark:border-slate-800"
             >
               <a
                 href={`/blog/${post.slug}`}
