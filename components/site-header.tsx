@@ -9,7 +9,7 @@ export function Header() {
         <Link href="/" className="group flex items-center gap-2">
           <span className="relative h-9 w-9 overflow-hidden rounded-2xl ring-1 ring-emerald-500/60 shadow-sm transition group-hover:scale-105 group-hover:ring-emerald-400/90">
             <Image
-              src="/icon.png"
+              src="/brand-mark.png"
               alt="calculatemyvat logo"
               fill
               sizes="36px"
@@ -105,5 +105,4 @@ export function Header() {
     </header>
   );
 }
-
 

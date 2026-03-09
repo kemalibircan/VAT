@@ -4,12 +4,15 @@ import { VatCalculator } from "@/components/vat-calculator";
 import { FaqSection } from "@/components/faq-section";
 import { JsonLd } from "@/components/jsonld";
 import { getPostsByCluster } from "@/lib/blog";
-import { getFaqSchema, getWebApplicationSchema } from "@/lib/schema";
+import { getFaqSchema, getWebApplicationSchema, getWebSiteSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Home – Reverse VAT & GST in Plain English",
   description:
-    "calculatemyvat helps you flip between net and gross with VAT or GST, understand the formulas, and share clean links to your calculations."
+    "calculatemyvat helps you flip between net and gross with VAT or GST, understand the formulas, and share clean links to your calculations.",
+  alternates: {
+    canonical: "https://calculatemyvat.com/"
+  }
 };
 
 export default async function HomePage() {
@@ -34,6 +37,7 @@ export default async function HomePage() {
 
   return (
     <div className="space-y-10">
+      <JsonLd data={getWebSiteSchema()} />
       <JsonLd
         data={getWebApplicationSchema({
           url: "https://calculatemyvat.com/",
@@ -187,5 +191,4 @@ export default async function HomePage() {
     </div>
   );
 }
-
 

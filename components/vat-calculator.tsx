@@ -379,7 +379,7 @@ export function VatCalculator({
         <div className="inline-flex items-center gap-2 rounded-full bg-surface/80 px-3 py-1 text-[11px] font-medium text-foreground-muted ring-1 ring-borderSubtle/70">
           <span className="relative h-7 w-7 overflow-hidden rounded-2xl ring-1 ring-emerald-500/60">
             <Image
-              src="/icon.png"
+              src="/brand-mark.png"
               alt="calculatemyvat logo"
               fill
               sizes="28px"
@@ -743,5 +743,4 @@ function ResultRow({ label, value, onCopy, formatAmount }: ResultRowProps) {
     </div>
   );
 }
-
 
